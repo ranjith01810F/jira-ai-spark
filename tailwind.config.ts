@@ -61,18 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
-			},
-			backgroundImage: {
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-subtle': 'var(--gradient-subtle)',
+				},
+				'jira-blue': 'hsl(var(--jira-blue))',
+				'jira-blue-light': 'hsl(var(--jira-blue-light))',
+				'jira-green': 'hsl(var(--jira-green))',
+				'jira-orange': 'hsl(var(--jira-orange))',
+				'jira-red': 'hsl(var(--jira-red))',
+				'jira-yellow': 'hsl(var(--jira-yellow))',
+				'jira-purple': 'hsl(var(--jira-purple))',
+				'status-todo': 'hsl(var(--status-todo))',
+				'status-progress': 'hsl(var(--status-progress))',
+				'status-done': 'hsl(var(--status-done))',
+				'priority-highest': 'hsl(var(--priority-highest))',
+				'priority-high': 'hsl(var(--priority-high))',
+				'priority-medium': 'hsl(var(--priority-medium))',
+				'priority-low': 'hsl(var(--priority-low))',
+				'priority-lowest': 'hsl(var(--priority-lowest))',
 			},
 			boxShadow: {
 				'card': 'var(--shadow-card)',
 				'elevated': 'var(--shadow-elevated)',
-			},
-			transitionProperty: {
-				'smooth': 'var(--transition-smooth)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
